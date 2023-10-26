@@ -1,0 +1,52 @@
+#!/bin/bash
+# Initialize code
+
+Dir="/mnt/i/Suicide/"
+codeDir="${Dir}PHESANT-master/WAS/"
+cd $codeDir
+
+# define path
+dataDir="${Dir}PHESANT-master/"
+## pheno data File
+phenodataFile="${dataDir}phenotypes/phenodata.csv"
+## results File
+CatDir="${dataDir}phewas/"
+# confounders
+confFile="${dataDir}phenotypes/cov.csv"
+
+# loop different thds 
+for i in pT_0.00001 pT_0.0001  pT_0.001   pT_0.005   pT_0.01    pT_0.05    pT_0.1     pT_0.5   pT_1  
+do
+# ---Step1 Running a phenome scan in UK Biobank-----
+# expouse file and  trait of interests name
+expFile="${dataDir}data/${i}.csv"
+trait_name=$i
+# run PHESANT
+cd $codeDir
+Rscript phenomeScan.r \
+--phenofile="$phenodataFile" \
+--traitofinterestfile="$expFile" \
+--variablelistfile="${dataDir}variable-lists/outcome-info.tsv" \
+--datacodingfile="${dataDir}variable-lists/data-coding-ordinal-info.txt" \
+--traitofinterest="$trait_name" \
+--resDir="${CatDir}results/"  \
+--userId="userId"  \
+--sensitivity \
+--genetic=TRUE \
+--confounderfile="$confFile"
+
+# ---Step 2 Post-processing of results----
+codeDir2="${Dir}PHESANT-master/resultsProcessing/"
+cd $codeDir2
+Rscript mainCombineResults.r \
+--resDir="${CatDir}results/"  \
+--variablelistfile="${dataDir}variable-lists/outcome-info.tsv"
+
+# ---change the foldername---
+mv results $i
+mkdir results
+done
+
+
+
+
