@@ -1,50 +1,17 @@
-# This script was used to perform mediation analysis for X - Gray matter(mean)/White matter/blood- suicide attempts
-# Bei Zhang 2023
-
 rm(list=ls())
 library(lavaan)
 library(dplyr)
 library(bruceR)
 library(lavaanPlot)
-path_med <-  "I:/Suicide/Mediation/"
-path_output <- "I:/Suicide/Mediation/Results/"
+path_med <-  "**/Mediation/"
+path_output <- "**/Results/"
 setwd(path_med)
 
-############################################################################
-###  X - Gray matter(mean)/White matter/proteins/blood- suicide attempts  ##
-############################################################################
 mlist <- c("gm", "wm", "proteins" ,"bc", "bb", "nmr")
  for (k in c(1:6)){
-# k=1
 ###### basic lists
-if (k==1){
-  m.ls=as.data.frame(fread(paste0(path_med,"Med_gm.csv")))
-  mean_f ="mgm"
-}else if (k==2){
-  m.ls=as.data.frame(fread(paste0(path_med,"Med_wm.csv")))
-  mean_f ="mwm"
-}else if (k==3){
-  m.ls=as.data.frame(fread(paste0(path_med,"Med_proteins.csv")))
-  mean_f ="mpr"
-}else if (k==4){
-  m.ls=as.data.frame(fread(paste0(path_med,"Med_bc.csv")))
-  mean_f ="mbc"
-}else if (k==5){
-  m.ls=as.data.frame(fread(paste0(path_med,"Med_bb.csv")))
-  mean_f ="mbb"
-}else if (k==6){
-  m.ls=as.data.frame(fread(paste0(path_med,"Med_nmr.csv")))
-  mean_f ="mnmr"
-}
-
-  x.ls= as.data.frame(fread(paste0(path_med,"X_factors.csv")))
-  y.ls= as.data.frame(fread(paste0(path_med,"Y_factor.csv")))
-  cov.ls= as.data.frame(fread(paste0(path_med,"beh.cov.csv")))
- colnames(m.ls)[1] <- "eid"
- 
-data1 <- merge(y.ls, x.ls, by="eid")
-data2 <- merge(cov.ls, m.ls, by="eid")
-data <- merge(data1,data2, by="eid")
+m.ls=as.data.frame(fread(paste0(path_med, mlist[k], ".csv")))
+mean_f = mlist[k]
 
 ###### make mediation model list
 for (i in 2:ncol(x.ls)){
@@ -52,7 +19,6 @@ for (i in 2:ncol(x.ls)){
       m.n = mean_f
       y.n = "SA"
       all.n <- c(x.n, m.n, y.n)
-      set.seed(1234)
       if (k==1){
         Data <- data[ , c(x.n, m.n, y.n, "TIV", colnames(cov.ls))]
       }else{
@@ -99,16 +65,6 @@ for (i in 2:ncol(x.ls)){
       }
      print(i)
 }
-colnames(fits.total)[1:3] =c("predictor", "modi", "outc")
-colnames(fits.total)[17]= "ratio_es"  #indirect(est)/direct(est)
-colnames(fits.total)[24]= "pvalue.b"
-rownames(fits.total)=NULL
-write.table(fits.total, paste0(path_output, "X_", m.n, "_suicide2.csv"), sep=',', row.names = F)
+write.table(fits.total, paste0(path_output, "X_", m.n, "_suicide.csv"), sep=',', row.names = F)
 rm(fits.total)
 }
-tmp.res=fits.total
-tmp.res=tmp.res[!is.na(tmp.res$predictor),]
-# tmp.res=filter(tmp.res,cfi>=0.9,tli>=0.9,rmsea.pvalue>0.05) #,V8<0.05
-tmp.res=filter(tmp.res,cfi>=0.9,tli>=0.9) #,V8<0.05
-#拟合优度(GFI)接近1.0、RMSEA接近0、CFI接近1.0表示模型较好地拟合数据。
-# write.table(tmp.res, paste0(path_output, "X_", m.n, "_suicide_tep2.csv"), sep=',', row.names = F)
