@@ -20,8 +20,6 @@ for (f in c(1:nrow(ls.IM))){
     
       ## exposure dat
       exp_dat <- extract_instruments(outcomes=IDs,clump=TRUE, r2=0.01, kb=1000, p1= 5*10^-6, access_token = NULL)
-      exp_dat$exposure = ls.IM$description[f]
-      print(dim(exp_dat))
       write.table(exp_dat,file=paste0(path_exposure, "Expo_", traitA),col.names=T,row.names = F,sep="\t",quot=F)
       
       # get outcome data
@@ -40,9 +38,6 @@ for (f in c(1:nrow(ls.IM))){
         chr_col = "CHR",
         pos_col = "BP"
       )
-      print(dim(t2d_out))
       write.table(t2d_out,file=paste0(path_outcome, traitA, "_to_suicide"),col.names=T,row.names = F,sep="\t",quot=F)
-      rm(exp_dat)
-      rm(t2d_out)
 }
 rm(list=ls())

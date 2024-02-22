@@ -13,7 +13,6 @@ for (f in c(1:nrow(ls.IM))){
        traitA='suicide'
        traitB= ls.IM$description[f]
        IDs =  ls.IM$UKB_online[f]
-       ## outcome dat
        outcome_dat <- extract_outcome_data(
          snps=sui_exp$SNP,
          outcomes=IDs,
@@ -22,8 +21,6 @@ for (f in c(1:nrow(ls.IM))){
          access_token = NULL
        )
        outcome_dat$outcome=ls.IM$description[f]
-       print(dim(outcome_dat))
        write.table(outcome_dat,file=paste0(path_output,"outcome_", traitB),col.names=T,row.names = F,sep="\t",quot=F)
-       rm(outcome_dat)
  }
  rm(list=ls())

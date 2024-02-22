@@ -54,10 +54,6 @@ for (i in 2:ncol(x.ls)){
       fits=fitMeasures(fit,c('cfi','tli','rmsea','rmsea.ci.lower','rmsea.ci.upper','rmsea.pvalue'))
       para.fits=parameterEstimates(fit, boot.ci.type = "perc", standardized = TRUE)
       fits=c((para.fits[nrow(para.fits)-2,5]/para.fits[nrow(para.fits),5]),fits,para.fits[3,8])
-      fits=cbind(rbind(all.n,rep(NA,3),rep(NA,3), rep(NA,3), rep(NA,3), rep(NA,3)),
-                 para.fits[c((nrow(para.fits)-2):(nrow(para.fits)), 1:3),1:ncol(para.fits)],
-                 rbind(fits,rep(NA,8),rep(NA,8),rep(NA,8),rep(NA,8),rep(NA,8)))
-      
       if (i==2){
             fits.total=fits
       }else{

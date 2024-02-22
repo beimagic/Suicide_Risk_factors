@@ -36,11 +36,9 @@ for (f in c(1:nrow(ls.IM))){
   snp_clump <- ld_clump_local(
     dplyr::tibble(rsid=pheno_dat_fil$SNP,pval=pheno_dat_fil$pval.exposure),
     clump_kb = 1000, clump_r2 = 0.01,clump_p = 1,
-    bfile='/public/home2/nodecw_group/protein_tmp/1210/ref_GRCh37/g1000_eur',
-    plink_bin="/public/home2/nodecw_group/protein_tmp/1210/plink1.9/plink")
+    bfile='/**/g1000_eur',
+    plink_bin="/**/plink")
   exp_dat <- pheno_dat_fil[which(pheno_dat_fil$SNP %in% snp_clump$rsid),]
-  
-  print(dim(exp_dat))
   write.table(exp_dat,file=paste0(path_exposure, "Expo_", traitA),col.names=T,row.names = F,sep="\t",quot=F)
   
   # get outcome data
@@ -61,8 +59,4 @@ for (f in c(1:nrow(ls.IM))){
   )
   print(dim(t2d_out))
   write.table(t2d_out,file=paste0(path_outcome, traitA, "_to_suicide"),col.names=T,row.names = F,sep="\t",quot=F)
-  rm(exp_dat)
-  rm(t2d_out)
-  rm(snp_clump)
-  rm(gwas_dat)
 }

@@ -30,8 +30,6 @@ sui_exp <- as.data.table(fread(paste0(path_input, "suicide.exposure_dat"), heade
          chr_col = "CHR",
          pos_col = "POS")
        outcome_dat$outcome=ls.IM$description[f]
-       print(dim(outcome_dat))
        write.table(outcome_dat,file=paste0(path_output,"outcome_", traitB),col.names=T,row.names = F,sep="\t",quot=F)
-       rm(outcome_dat)
  }
  rm(list=ls())

@@ -54,29 +54,6 @@ ls.IM=as.data.table(read.csv(paste0(path, 'MR.csv'), header = T))
       }else{
         pleio.summary=rbind(pleio.summary,pleio)
       }
-      #  if pval > 0.05 no
-      #--Leave-one-out sensitivity test--
-      single <- mr_leaveoneout(dat)
-      mr_leaveoneout_plot(single)
-      
-      
-      # scatter
-      fig.scatter = mr_scatter_plot(MR, dat)
-      ggsave(fig.scatter[[1]], file=paste0(traitA,'_',traitB,"_scatter_plot.png"), width=7, height=7)
-      
-      #forest plot
-      res_single <- mr_singlesnp(dat)
-      fig.forest = mr_forest_plot(res_single)
-      ggsave(fig.forest[[1]], file=paste0(traitA,'_',traitB,"_forestr_plot.png"), width=7, height=7)
-      
-      #loo plot
-      res_loo = mr_leaveoneout(dat)
-      fig.loo = mr_leaveoneout_plot(res_loo)
-      ggsave(fig.loo[[1]], file=paste0(traitA,'_',traitB,"_loo_plot.png"), width=7, height=7)
-       
-      #funnel plot
-      fig.funnel=mr_funnel_plot(res_single)
-      ggsave(fig.funnel[[1]], file=paste0(traitA,'_',traitB,"_funnel_plot.png"), width=7, height=7) 
       
 }
 write.table(MRsummary,file="MRsummary",col.names = T,row.names=F,sep="\t",quot=F)
