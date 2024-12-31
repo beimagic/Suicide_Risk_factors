@@ -1,0 +1,369 @@
+Feature,Importance,FieldID,FieldName
+20500-0.0,0.17554803414743994,20500,Suffering mental distress 
+20450-0.0,0.11622237281965747,20450,Feelings of worthlessness
+20433-0.0,0.08178467440702002,20433,Age at first episode of depression
+2100-0.0,0.07978295410349363,2100,Seen psychiatrists for  anxiety/depression
+20437-0.0,0.07076306145009421,20437,Thoughts of death during depression
+20499-0.0,0.05763182136270161,20499,Ever sought/received help for mental distress
+20544-0.0-11,0.038950755044308845,20544,Depression diagnosed by professional
+20531-0.0,0.030584368533188605,20531,Victim of sexual assault
+20489-0.0,0.029619176992600277,20489,Felt loved as a child
+99999992-0.0,0.02425661779759954,99999992,Traumatic events
+2149-0.0,0.02082683810367461,2149,Lifetime number of sexual partners
+20487-0.0,0.01772008871815749,20487,Felt hated by family member as a child
+20523-0.0,0.01655618051896521,20523,Physical violence by partners
+20436-0.0,0.01455700101134029,20436,Fraction of day affected during depression
+20441-0.0,0.014059865945077863,20441,Prolonged loss of interest in normal activities
+2139-0.0,0.012819340439609007,2139,Age first had sexual intercourse
+20162-0.0,0.011949641753440704,20162,Smoking years as proportion of life span
+20513-0.0,0.011165296334618132,20513,Recent thoughts of suicide or self-harm
+20521-0.0,0.010126076736977987,20521,Belittlement by partners
+20546-0.0-4,0.00995302065872579,20546,Drugs or alcohol  taken for depression
+189-0.0,0.0065280447674529955,189,Townsend deprivation index 
+699-0.0,0.00642214412958044,699,Length of time at current address
+20461-0.0,0.0063039245382365,20461,Age at first psychotic experience
+20161-0.0,0.0049626313354851365,20161,Pack years of smoking
+20455-0.0,0.0044817748990882535,20455,Age when last took cannabis
+3669-0.0,0.0041308469533245995,3669,Number of same-sex sexual partners
+20488-0.0,0.004097904620338943,20488,Physically abused by family as a child
+99999995-0.0,0.0036062058278443347,99999995,Mental distress
+1458-0.0,0.0035156369087422437,1458,Cereal intake
+1883-0.0,0.0032234128662490787,1883,Number of full sisters
+99999998-0.0,0.0029308410749713616,99999998,Depression symptom
+20493-0.0,0.002525590535149706,20493,Severity of problems due to mania or irritability
+20501-0.0,0.0024985111056459726,20501,Ever had period of mania / excitability
+680-0.0,0.0024119881413112772,680,Own or rent accommodation lived in
+20454-0.0,0.0023730843634948012,20454,Maximum frequency of taking cannabis
+20465-0.0,0.002326699067724999,20465,Number of times heard an un-real voice
+1299-0.0,0.0019454207307597101,1299,Salad / raw vegetable intake
+757-0.0,0.0019344359340156447,757,Time employed in main current job
+20492-0.0,0.001872525224218789,20492,Longest period of mania or irritability
+20522-0.0,0.0017816561134956213,20522,Been in a confiding relationship as an adult
+1930-0.0,0.001720604135976411,1930,Miserableness
+20536-0.0,0.0016336956927830734,20536,Weight change during worst episode of depression
+20439-0.0,0.0015770011500692701,20439,Frequency of depressed days during worst episode of depression
+20524-0.0,0.0015313778148570345,20524,Sexual interference by partner or ex-partner without consent as an adult
+20406-0.0,0.001442563069234296,20406,Ever addicted to alcohol
+2050-0.0,0.0014101690015130772,2050,Frequency of depressed mood in last 2 weeks
+2946-0.0,0.001391645322846025,2946,Father's age
+21022-0.0,0.0013884307701790034,21022,Age at recruitment
+20160-0.0,0.0013342885279513065,20160,Ever smoked
+1488-0.0,0.001322163842639486,1488,Tea intake
+4288-0.0,0.001319989266939858,4288,Time to answer
+20453-0.0,0.0013120055628143652,20453,Ever taken cannabis
+767-0.0,0.0013049987383193368,767,Length of working week for main job
+20496-0.0,0.0012792706574065286,20496,Felt distant from other people in past month
+2159-0.0,0.0012512196620346565,2159,Ever had same-sex intercourse
+47-0.0,0.0012343780570927192,47,Hand grip strength (right)
+20403-0.0,0.001205088718158777,20403,Amount of alcohol drunk on a typical drinking day
+20440-0.0,0.0011833305679838264,20440,Impact on normal roles during worst period of depression
+20462-0.0,0.0011325693001003818,20462,Distress caused by unusual or psychotic experiences
+23111-0.0,0.0011213804653757656,23111,Leg fat percentage (right)
+20127-0.0,0.001090469211599921,20127,Neuroticism score
+21000-0.0,0.0010622194473454475,21000,Ethnic background
+1329-0.0,0.0010247499209638385,1329,Oily fish intake
+20449-0.0,0.001014225951483377,20449,Feelings of tiredness during worst episode of depression
+2188-0.0,0.001008202406866418,2188,"Long-standing illness, disability or infirmity"
+3526-0.0,0.0010046456315552623,3526,Mother's age at death
+2110-0.0,0.0009744923049982904,2110,Able to confide
+20466-0.0,0.0009586099812353624,20466,Ever prescribed a medication for unusual or psychotic experiences
+1807-0.0,0.0009151703644756778,1807,Father's age at death
+22040-0.0,0.0008846523309306878,22040,Summed MET minutes per week for all activity
+20410-0.0,0.0008608041613099144,20410,Age when known person last commented about drinking habits
+20546-0.0-3,0.0008586764530061076,20546,Drugs or alcohol  taken for depression
+20434-0.0,0.0007788633474977087,20434,Age at last episode of depression
+3486-0.0,0.0007437208141539034,3486,Ever tried to stop smoking
+20414-0.0,0.0007145486118787706,20414,Frequency of drinking alcohol
+4079-0.0,0.0007089047284161376,4079,"Diastolic blood pressure, automated reading"
+6350-2.0,0.0007082814365932402,6350,Duration to complete alphanumeric path (trail #2)
+46-0.0,0.0007012558463532023,46,Hand grip strength (left)
+709-0.0,0.000700681435328213,709,Number in household
+4581-0.0,0.0006926803812714287,4581,Financial situation satisfaction
+23115-0.0,0.0006923446240007772,23115,Leg fat percentage (left)
+20526-0.0,0.0006460317818726322,20526,Been in serious accident believed to be life-threatening
+3436-0.0,0.0006225159870862122,3436,Age started smoking in current smokers
+1835-0.0,0.0005982560465621317,1835,Mother still alive
+1339-0.0,0.0005832133321570129,1339,Non-oily fish intake
+1289-0.0,0.000577636042188264,1289,Cooked vegetable intake
+4620-0.0,0.000576021985595475,4620,Number of depression episodes
+20539-0.0,0.0005666047503832945,20539,Frequency of inability to stop worrying during worst period of anxiety
+1797-0.0,0.000552459145793687,1797,Father still alive
+1369-0.0,0.0005495720720471455,1369,Beef intake
+20477-0.0,0.000539518878305429,20477,Ever talked to a health professional about unusual or psychotic experiences
+94-0.0,0.0005239384215501213,94,"Diastolic blood pressure, manual reading"
+20490-0.0,0.0005203395753281309,20490,Sexually molested as a child
+20404-0.0,0.0005162001090160329,20404,Ever physically dependent on alcohol
+728-0.0,0.0005036439021619621,728,Number of vehicles in household
+23104-0.0,0.000496136144665362,23104,Body mass index (BMI)
+1309-0.0,0.0004788301202185992,1309,Fresh fruit intake
+2966-0.0,0.0004585386769291972,2966,Age high blood pressure diagnosed
+20022-0.0,0.00045741741126787794,20022,Birth weight
+3456-0.0,0.00045355965916838516,3456,Number of cigarettes currently smoked daily (current cigarette smokers)
+99999997-0.0,0.0004445296088267636,99999997,Happiness and subjective well-being
+20416-0.0,0.00044357840301619607,20416,Frequency of consuming six or more units of alcohol
+1438-0.0,0.00043477593662999826,1438,Bread intake
+1873-0.0,0.00041185642596856906,1873,Number of full brothers
+5386-0.0,0.00040866823455663827,5386,Number of unenthusiastic/disinterested episodes
+1239-0.0,0.0003958503728227991,1239,Current tobacco smoking
+99999996-0.0,0.0003834736332323997,99999996,Mania
+20023-0.0,0.00037850031438335505,20023,Mean time to correctly identify matches
+20411-0.0,0.0003663763255233102,20411,Ever been injured or injured someone else through drinking alcohol
+23112-0.0,0.00036096305338493683,23112,Leg fat mass (right)
+20537-0.0,0.000354211499732328,20537,Frequency of difficulty controlling worry during worst period of anxiety
+20463-0.0,0.00034995523508843,20463,Ever heard an un-real voice
+1279-0.0,0.00034967230567342763,1279,Exposure to tobacco smoke outside home
+23128-0.0,0.00034800080791821204,23128,Trunk fat mass
+20544-0.0-4,0.00034772123192066144,20544,Depression diagnosed by professional
+2090-0.0,0.00034640312371053857,2090,"Seen doctor (GP) for nerves, anxiety, tension or depression"
+3476-0.0,0.0003455177316309893,3476,Difficulty not smoking for 1 day
+1528-0.0,0.0003420858962277735,1528,Water intake
+400-0.1,0.000336118297866305,400,Time to complete round
+23100-0.0,0.00033246471699038924,23100,Whole body fat mass
+1180-0.0,0.0003202170291511102,1180,Morning/evening person (chronotype)
+1080-0.0,0.0003176693552084899,1080,Time spent using computer
+2060-0.0,0.0003146039463436289,2060,Frequency of unenthusiasm / disinterest in last 2 weeks
+874-0.0,0.0003134278763735664,874,Duration of walks
+20419-0.0,0.00031174532695699006,20419,Difficulty concentrating during worst period of anxiety
+1200-0.0,0.0002852219054885288,1200,Sleeplessness / insomnia
+3426-0.0,0.0002839420239351413,3426,Job involves night shift work
+670-0.0,0.0002745415965775406,670,Type of accommodation lived in
+1379-0.0,0.00025759093603431937,1379,Lamb/mutton intake
+20456-0.0,0.0002574900077948265,20456,Ever addicted to illicit or recreational drugs
+23117-0.0,0.0002571252648592098,23117,Leg fat-free mass (left)
+23099-0.0,0.00025108927101155827,23099,Body fat percentage
+23107-0.0,0.0002505888604164549,23107,Impedance of leg (right)
+20116-0.0,0.00024694552498088075,20116,Smoking status
+23116-0.0,0.0002410298383364163,23116,Leg fat mass (left)
+23113-0.0,0.00024008816718867486,23113,Leg fat-free mass (right)
+1950-0.0,0.0002386149184586708,1950,Sensitivity / hurt feelings
+20510-0.0,0.0002278596711871576,20510,Recent feelings of depression
+845-0.0,0.00022471980308586562,845,Age completed full time education
+20527-0.0,0.00022177955294603262,20527,Been involved in combat or exposed to war-zone
+2306-0.0,0.0002192289546905869,2306,Weight change compared with 1 year ago
+23114-0.0,0.00021684103982114018,23114,Leg predicted mass (right)
+20497-0.0,0.00021641785348748435,20497,Repeated disturbing thoughts of stressful experience in past month
+23118-0.0,0.00021504449659455954,23118,Leg predicted mass (left)
+22034-0.0,0.0002140483991019635,22034,Summed minutes activity
+21021-0.0,0.0002106242314501644,21021,Pulse wave Arterial Stiffness index
+1845-0.0,0.00020945692405081832,1845,Mother's age
+826-0.0,0.00020626838651027185,826,Job involves shift work
+20544-0.0-3,0.0002022775513093776,20544,Depression diagnosed by professional
+1618-0.0,0.00020226761574919144,1618,Alcohol usually taken with meals
+23119-0.0,0.00019933103325361288,23119,Arm fat percentage (right)
+1558-0.0,0.00019921169177919488,1558,Alcohol intake frequency.
+23123-0.0,0.00019791559672395264,23123,Arm fat percentage (left)
+5496-0.0,0.0001972892094095766,5496,Leg pain when walking ever disappears while walking
+404-0.0,0.00019666938074348718,404,Duration to first press of snap-button in each round
+4194-0.0,0.00019416174448398584,4194,Pulse rate
+816-0.0,0.00018971002939725454,816,Job involves heavy manual or physical work
+23109-0.0,0.00018877641439667982,23109,Impedance of arm (right)
+1498-0.0,0.0001876603811457291,1498,Coffee intake
+6325-2.0,0.00018621405959668816,6325,
+4195-0.0,0.00018596156038428369,4195,Pulse wave reflection index
+20519-0.0,0.00018403105738817134,20519,Recent feelings of tiredness or low energy
+23130-0.0,0.00018281504686237985,23130,Trunk predicted mass
+20467-0.0,0.00018038523621356949,20467,Frequency of unusual or psychotic experiences in past year
+23129-0.0,0.00017995606279974714,23129,Trunk fat-free mass
+20431-0.0,0.00017886121619925757,20431,Ever addicted to a behaviour or miscellanous
+5375-0.0,0.0001739966795986046,5375,Longest period of unenthusiasm / disinterest
+2040-0.0,0.0001714958512481,2040,Risk taking
+99999993-0.0,0.00017109902823896715,99999993,PHQ9
+99999994-0.0,0.00015552538008384322,99999994,PHQ4
+1050-0.0,0.00015523116973689146,1050,Time spend outdoors in summer
+1518-0.0,0.00015433275097432214,1518,Hot drink temperature
+22033-0.0,0.00014971414868316784,22033,Summed days activity
+23108-0.0,0.0001493898147224301,23108,Impedance of leg (left)
+20532-0.0,0.00014617437189412194,20532,Did your sleep change?
+23124-0.0,0.00014455457038463893,23124,Arm fat mass (left)
+2473-0.0,0.00014155994422561586,2473,Other serious medical condition/disability diagnosed by doctor
+1269-0.0,0.00014134947913970304,1269,Exposure to tobacco smoke at home
+23110-0.0,0.0001407934856363966,23110,Impedance of arm (left)
+4196-0.0,0.00013893257322282061,4196,Pulse wave peak to peak time
+4609-0.0,0.0001359508908977521,4609,Longest period of depression
+5518-0.0,0.00013567555950526252,5518,Leg pain on walking : effect of standing still
+20442-0.0,0.00013395742114889164,20442,Lifetime number of depressed periods
+4282-0.0,0.00013172958693728602,4282,Maximum digits remembered correctly
+20413-0.0,0.00013134679683816618,20413,Frequency of inability to cease drinking in last year
+23105-0.0,0.00012932943827531417,23105,Basal metabolic rate
+4285-0.0,0.000128893358889482,4285,Time to complete test
+23120-0.0,0.00012753230713906667,23120,Arm fat mass (right)
+1717-0.0,0.00012573469105446445,1717,Skin colour
+20420-0.0,0.00012572927989998683,20420,Longest period spent worried or anxious
+99999999-0.0,0.00012535947580390953,99999999,Anxiety
+3761-0.0,0.0001239542620821995,3761,"Age hay fever, rhinitis or eczema diagnosed"
+20509-0.0,0.00012217107672034678,20509,Recent inability to stop or control worrying
+23127-0.0,0.00012109938333938661,23127,Trunk fat percentage
+20415-0.0,0.00011948878365406074,20415,Ongoing addiction to alcohol
+894-0.0,0.00011364682852020623,894,Duration of moderate activity
+1727-0.0,0.00011245890440861335,1727,Ease of skin tanning
+1920-0.0,0.00011220310127695053,1920,Mood swings
+20409-0.0,0.00011210952443294425,20409,Frequency of feeling guilt or remorse after drinking alcohol in last year
+20197-2.0,0.00011106639668906132,20197,Number of word pairs correctly associated
+20408-0.0,0.00010770583728216962,20408,Frequency of memory loss due to drinking alcohol in last year
+20468-0.0,0.00010684277003233455,20468,Ever believed in an un-real conspiracy against self
+20423-0.0,0.00010636568151714635,20423,Keyed up or on edge during worst period of anxiety
+20548-0.0-8,0.00010538286892199836,20548,Manifestations of mania or irritability
+1319-0.0,0.00010388869104387598,1319,Dried fruit intake
+23101-0.0,0.00010256291573533446,23101,Whole body fat-free mass
+904-0.0,0.00010100519398099373,904,Number of days/week of vigorous physical activity 10+ minutes
+1767-0.0,0.00010087715720443873,1767,Adopted as a child
+738-0.0,0.00010069307368157422,738,Average total household income before tax
+23106-0.0,0.0001004506349512496,23106,Impedance of whole body
+20508-0.0,0.00010032188426074697,20508,Recent trouble concentrating on things
+884-0.0,9.748979333116384e-05,884,Number of days/week of moderate physical activity 10+ minutes
+2020-0.0,9.536203747152748e-05,2020,"Loneliness, isolation"
+20503-0.0,9.472625359764794e-05,20503,Ever addicted to prescription or over-the-counter medication
+5057-0.0,9.234369410096989e-05,5057,Number of older siblings
+20494-0.0,9.181180945811404e-05,20494,Felt irritable or had angry outbursts in past month
+4559-0.0,8.917371126223965e-05,4559,Family relationship satisfaction
+1787-0.0,8.892471461383583e-05,1787,Maternal smoking around birth
+3496-0.0,8.865273775615207e-05,3496,Wants to stop smoking
+5364-0.0,8.592754301760712e-05,5364,Average weekly intake of other alcoholic drinks
+20491-0.0,8.493690271872807e-05,20491,Someone to take to doctor when needed as a child
+20418-0.0,8.318667309150186e-05,20418,Impact on normal roles during worst period of anxiety
+20460-0.0,8.209720482464533e-05,20460,Belief that own life is meaningful
+2887-0.0,8.15517260849959e-05,2887,Number of cigarettes previously smoked daily
+23121-0.0,8.134702573259324e-05,23121,Arm fat-free mass (right)
+20544-0.0-6,8.120583758609142e-05,20544,Depression diagnosed by professional
+20448-0.0,8.074773858720437e-05,20448,Professional informed about depression
+20016-0.0,8.04861214501797e-05,20016,Fluid intelligence score
+1970-0.0,8.029914654858071e-05,1970,Nervous feelings
+20458-0.0,7.880325027546921e-05,20458,General happiness
+20432-0.0,7.86236611268578e-05,20432,Ongoing behavioural or miscellanous addiction
+20514-0.0,7.850216981369303e-05,20514,Recent lack of interest or pleasure in doing things
+1408-0.0,7.750366798400473e-05,1408,Cheese intake
+1120-0.0,7.673693661360002e-05,1120,Weekly usage of mobile phone in last 3 months
+20535-0.0,7.663653329645786e-05,20535,Waking too early
+1628-0.0,7.633113311125623e-05,1628,Alcohol intake versus 10 years previously
+20534-0.0,7.4680550352191e-05,20534,Sleeping too much
+6351-2.0,7.408260652908982e-05,6351,Total errors traversing alphanumeric path (trail #2)
+20505-0.0,7.282650763201602e-05,20505,Recent easy annoyance or irritability
+6773-2.0,7.272367927363326e-05,6773,Interval between previous point and current one in alphanumeric path (trail #2)
+20547-0.0-1,7.239221809857031e-05,20547,Activities undertaken to treat depression
+1210-0.0,7.191886249924642e-05,1210,Snoring
+21004-2.0,6.862724149121955e-05,21004,Number of puzzles correct
+23102-0.0,6.761350232354733e-05,23102,Whole body water mass
+20543-0.0,6.705532035008534e-05,20543,Number of things worried about during worst period of anxiety
+1130-0.0,6.466172299247841e-05,1130,Hands-free device/speakerphone use with mobile phone in last 3 month
+20459-0.0,6.335807861986278e-05,20459,General happiness with own health
+20126-0.0,6.319268917424388e-05,20126,Bipolar and major depression status
+2080-0.0,6.315402373785237e-05,2080,Frequency of tiredness / lethargy in last 2 weeks
+23122-0.0,6.216782189274759e-05,23122,Arm predicted mass (right)
+20506-0.0,6.0887213209354944e-05,20506,Recent feelings or nervousness or anxiety
+1940-0.0,5.983435778232838e-05,1940,Irritability
+20417-0.0,5.9671097407467704e-05,20417,"Tense, sore, or aching muscles during worst period of anxiety"
+3773-0.0,5.962845113848169e-05,3773,Knee pain for 3+ months
+20515-0.0,5.735903302631265e-05,20515,Recent trouble relaxing
+6333-2.0,5.583409212329253e-05,6333,Duration spent answering each puzzle
+20511-0.0,5.56176130311932e-05,20511,Recent poor appetite or overeating
+20525-0.0,5.55813000914349e-05,20525,Able to pay rent/mortgage as an adult
+4570-0.0,5.260690368245544e-05,4570,Friendships satisfaction
+1060-0.0,5.252223697269009e-05,1060,Time spent outdoors in winter
+1389-0.0,5.250017066298884e-05,1389,Pork intake
+20516-0.0,5.1967064333451935e-05,20516,Recent restlessness
+20425-0.0,5.024544514725585e-05,20425,Ever worried more than most people would in similar situation
+20426-0.0,5.0185807972784145e-05,20426,Restless during period of worst anxiety
+20428-0.0,4.9581809567424374e-05,20428,Professional informed about anxiety
+20548-0.0-7,4.857694309728363e-05,20548,Manifestations of mania or irritability
+20507-0.0,4.787302627405212e-05,20507,Recent feelings of inadequacy
+4526-0.0,4.7593469308008664e-05,4526,Happiness
+20498-0.0,4.7040442630860116e-05,20498,Felt very upset when reminded of stressful experience in past month
+1359-0.0,4.633047079009366e-05,1359,Poultry intake
+6348-2.0,4.613194882589652e-05,6348,Duration to complete numeric path (trail #1)
+20548-0.0-3,4.542404510858608e-05,20548,Manifestations of mania or irritability
+20438-0.0,4.476655692293701e-05,20438,Duration of worst depression
+20471-0.0,4.4159946959185235e-05,20471,Ever seen an un-real vision
+20520-0.0,4.372049342546359e-05,20520,Recent worrying too much about different things
+1070-0.0,4.3458208993184164e-05,1070,Time spent watching television (TV)
+1170-0.0,4.334891399188312e-05,1170,Getting up in morning
+99999991-0.0,4.296049552576887e-05,99999991,Unusual and psychotic experiences
+20405-0.0,4.206671525054873e-05,20405,"Ever had known person concerned about, or recommend reduction of, alcohol consumption"
+6373-2.0,4.1940999693435246e-05,6373,Number of puzzles correctly solved
+20474-0.0,4.10093167198064e-05,20474,Ever believed in un-real communications or signs
+6772-2.0,4.049976819734528e-05,6772,Interval between previous point and current one in numeric path (trail #1)
+20530-0.0,4.044337939737446e-05,20530,Witnessed sudden violent death
+4598-0.0,3.9625584146348305e-05,4598,Ever depressed for a whole week
+20504-0.0,3.943351030304729e-05,20504,Ongoing addiction or dependence to over-the-counter medication
+20512-0.0,3.868770088213384e-05,20512,Recent feelings of foreboding
+1960-0.0,3.7353073649114225e-05,1960,Fed-up feelings
+864-0.0,3.722432101281911e-05,864,Number of days/week walked 10+ minutes
+2030-0.0,3.480332005355004e-05,2030,Guilty feelings
+4631-0.0,3.434644504825609e-05,4631,Ever unenthusiastic/disinterested for a whole week
+23324-2.0,3.374035961426395e-05,23324,Number of symbol digit matches made correctly
+3731-0.0,3.200830877975943e-05,3731,Former alcohol drinker
+23125-0.0,3.1941707400006354e-05,23125,Arm fat-free mass (left)
+20495-0.0,2.9933969366866406e-05,20495,Avoided activities or situations because of previous stressful experience in past month
+20541-0.0,2.88906472609567e-05,20541,Difficulty stopping worrying during worst period of anxiety
+1538-0.0,2.8765155005017332e-05,1538,Major dietary changes in the last 5 years
+1757-0.0,2.8619355343292922e-05,1757,Facial ageing
+20429-0.0,2.846994818347342e-05,20429,Easily tired during worst period of anxiety
+1110-0.0,2.769980774881841e-05,1110,Length of mobile phone use
+6183-0.0,2.7212108730454124e-05,6183,Number of cigarettes previously smoked daily (current cigar/pipe smokers)
+5485-0.0,2.653370002248479e-05,5485,Leg pain when walking normally
+2237-0.0,2.539912374456243e-05,2237,Plays computer games
+20542-0.0,2.4889454501802054e-05,20542,Stronger worrying (than other people) during period of worst anxiety
+2178-0.0,2.4623986757386082e-05,2178,Overall health rating
+20473-0.0,2.3467473272623258e-05,20473,Number of times seen an un-real vision
+1687-0.0,2.316867102897077e-05,1687,Comparative body size at age 10
+23126-0.0,2.310385087501847e-05,23126,Arm predicted mass (left)
+1777-0.0,2.2924717104684847e-05,1777,Part of a multiple birth
+20548-0.0-9,2.241996664910011e-05,20548,Manifestations of mania or irritability
+20427-0.0,2.1547003648116347e-05,20427,Frequent trouble falling or staying asleep during worst period of anxiety
+20551-0.0-3,2.1447519893753658e-05,20551,Substance of prescription or over-the-counter medication addiction
+20446-0.0,2.117043597103997e-05,20446,Ever had prolonged feelings of sadness or depression
+1349-0.0,2.0658608410571785e-05,1349,Processed meat intake
+4501-0.0,2.055868526613027e-05,4501,Non-accidental death in close genetic family
+399-0.1,1.9894859184222096e-05,399,Number of incorrect matches in round
+20018-0.0,1.921461014760992e-05,20018,Prospective memory result
+20435-0.0,1.8428611680872285e-05,20435,Difficulty concentrating during worst depression
+2000-0.0,1.8097193789297753e-05,2000,Worry too long after embarrassment
+1697-0.0,1.7912547045912445e-05,1697,Comparative height size at age 10
+1190-0.0,1.6242407266026755e-05,1190,Nap during day
+1548-0.0,1.6176770934497717e-05,1548,Variation in diet
+4642-0.0,1.539899995748827e-05,4642,Ever manic/hyper for 2 days
+6771-2.0,1.5306547032659888e-05,6771,Errors before selecting correct item in alphanumeric path (trail #2)
+2926-0.0,1.4988607261707986e-05,2926,Number of unsuccessful stop-smoking attempts
+20551-0.0-1,1.4646494972196271e-05,20551,Substance of prescription or over-the-counter medication addiction
+6374-2.0,1.4118192061098107e-05,6374,Number of puzzles viewed
+20117-0.0,1.4061120183217856e-05,20117,Alcohol drinker status
+1747-0.0,1.3869891255871697e-05,1747,"Hair colour (natural, before greying)"
+20544-0.0-15,1.382032772530316e-05,20544,Depression diagnosed by professional
+5507-0.0,1.3583436968607941e-05,5507,Leg pain on walking : action taken
+20548-0.0-2,1.3549753992747248e-05,20548,Manifestations of mania or irritability
+1031-0.0,1.3339512828565602e-05,1031,Frequency of friend/family visits
+20540-0.0,1.3329207231607399e-05,20540,Multiple worries during worst period of anxiety
+20533-0.0,1.270506987727862e-05,20533,Trouble falling asleep
+2010-0.0,1.2455773704955022e-05,2010,Suffer from 'nerves'
+1478-0.0,1.2230317685043512e-05,1478,Salt added to food
+3799-0.0,1.1704581758153e-05,3799,Headaches for 3+ months
+20422-0.0,1.1619895174946571e-05,20422,More irritable than usual during worst period of anxiety
+6349-2.0,1.1050197501754252e-05,6349,Total errors traversing numeric path (trail #1)
+1980-0.0,1.1032144143795206e-05,1980,Worrier / anxious feelings
+5674-0.0,1.0615586006020182e-05,5674,Severity of manic/irritable episodes
+4728-0.0,1.061547545070603e-05,4728,Leg pain on walking
+2936-0.0,1.0220799887330753e-05,2936,Likelihood of resuming smoking
+4548-0.0,9.931928629708649e-06,4548,Health satisfaction
+20517-0.0,9.030040404625378e-06,20517,"Trouble falling or staying asleep, or sleeping too much"
+403-0.0,8.436452393301894e-06,403,Number of times snap-button pressed
+31-0.0,8.056979681489934e-06,31,Sex
+1990-0.0,7.570139328383052e-06,1990,Tense / 'highly strung'
+20544-0.0-10,7.383055186585865e-06,20544,Depression diagnosed by professional
+5463-0.0,7.359938639952888e-06,5463,Leg pain in calf/calves
+95-0.0,7.349721861553853e-06,95,Pulse rate (during blood-pressure measurement)
+20529-0.0,7.279025214148123e-06,20529,Victim of physically violent crime
+20401-0.0,7.265067967806241e-06,20401,Ever addicted to any substance or behaviour
+4537-0.0,7.167969365743083e-06,4537,Work/job satisfaction
+2443-0.0,6.738616775778592e-06,2443,Diabetes diagnosed by doctor
+3571-0.0,6.711863345168232e-06,3571,Back pain for 3+ months
+2070-0.0,6.198952664612178e-06,2070,Frequency of tenseness / restlessness in last 2 weeks
+5663-0.0,4.88482107041771e-06,5663,Length of longest manic/irritable episode
+20549-0.0-4,4.795640774294729e-06,20549,Substances taken for anxiety
+1220-0.0,4.574027900566166e-06,1220,Daytime dozing / sleeping (narcolepsy)
+20548-0.0-1,4.458062211328759e-06,20548,Manifestations of mania or irritability
+20407-0.0,4.419716114644536e-06,20407,Frequency of failure to fulfil normal expectations due to drinking alcohol in last year
+20445-0.0,4.3781161543852115e-06,20445,Depression possibly related to childbirth
+20550-0.0-1,4.032931634026142e-06,20550,Activities undertaken to treat anxiety
+5474-0.0,3.966033727968847e-06,5474,Leg pain when walking uphill or hurrying
+20548-0.0-5,3.7388230725578436e-06,20548,Manifestations of mania or irritability
+5452-0.0,3.533251524550941e-06,5452,Leg pain when standing still or sitting
+20547-0.0-3,3.2187837348187417e-06,20547,Activities undertaken to treat depression
